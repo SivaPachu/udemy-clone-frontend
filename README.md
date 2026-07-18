@@ -50,13 +50,13 @@ The main objective of this project is to practice and improve my front-end web d
 
 ## 🚀 Live Demo
 
-🔗 **Live Website:** []
+🔗 **Live Website:** [https://sivapachu.github.io/udemy-clone-frontend/]
 
 ---
 
 ## 📂 GitHub Repository
 
-🔗 **Repository Link:** []
+🔗 **Repository Link:** [https://github.com/SivaPachu/udemy-clone-frontend.git]
 
 ---
 
