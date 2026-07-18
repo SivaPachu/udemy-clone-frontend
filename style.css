@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+    gap: 10px;
+}
+
+.navbar__s1 {
+    color: #a435f0;
+}
+
+.navbar__s2 {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar__s2 input {
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+.navbar__s2 input:focus {   /* Pseudo Class: Focus */
+    outline: none;
+}
+
+.navbar__s3 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.navbar__s3 p {
+    background-color: white;
+    color: #34295b;
+    padding: 5px;
+}
+
+.navbar__s3 p:hover {
+    border-bottom: solid black 1px;
+}
+
+.navbar__s3 i {
+    background-color: white;
+    color: #34295b;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.navbar__s3 i:hover {
+    background-color: #34295b;
+    color: white;
+}
+
+/* Categories */
+.categories {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+}
+
+.categories p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #a435f0;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.categories p:hover {
+    background-color: #34295b;
+    transform: scale(1.05) translateY(-3px);
+}
+
+
+/* Sale Image */
+.sale-image img {
+    width: 100%;
+}
+
+
+/* Recommended Info */
+.recommended {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.recommended-container {
+    /* margin-top: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.course-card {
+    width: 350px;
+}
+
+.course-card img {
+    margin-top: 15px;
+    width: 100%;
+    height: 200px;
+}
+
+.course-card del {
+    color: #C9A0DC;
+}
+
+
+/* Topics */
+.topics {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.topics-container {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.topics-container p {
+    border: solid gray 2px;
+    border-radius: 30px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    transition: 0.3s;
+}
+
+.topics-container p:hover {
+    background-color: #8855DE;
+    color: white;
+    transform: scale(1) translateY(-3px);
+}
+
+
+/* Popular Info */
+.popular {
+    margin-top: 3px;
+    padding: 10px;
+}
+
+.popular-container {
+    /* margin-top: 15px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+/* Footer */
+.footer {
+    margin-top: 15px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+.footer__one {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__one p{
+    margin: 15px;
+}
+
+.footer__one p {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.footer__one p:hover {
+    /* border-bottom: solid #9b98bd 1px; */
+    color: #8A54E1;
+}
+
+.footer__two {
+    margin: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__two p:hover{
+    color: blueviolet;
+    border-bottom: solid #9b98bd 1px;
+}
