@@ -15,6 +15,9 @@ body {
     align-items: center;
     border-bottom: solid black 1px;
     gap: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 .navbar__s1 {
@@ -35,6 +38,7 @@ body {
     border: none;
     font-size: 16px;
     width: 100%;
+    background-color: transparent;
 }
 
 .navbar__s2 input:focus {   /* Pseudo Class: Focus */
@@ -47,11 +51,32 @@ body {
     align-items: center;
 }
 
-.navbar__s3 p {
+.mylearning {               /* My Learning Dropdown*/
+    position: relative;
+    cursor: pointer;
+}
+
+.mylearning__dropdown {
+    position: absolute;
+    top: 150%;
+    padding: 10px;
+    right: 0;
+    width: 200px;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 5px;
+    display: none;           
+}
+
+.mylearning:hover .mylearning__dropdown {
+    display: block;
+}
+
+/* .navbar__s3 p {
     background-color: white;
     color: #34295b;
     padding: 5px;
-}
+} */
 
 .navbar__s3 p:hover {
     border-bottom: solid black 1px;
