@@ -41,7 +41,8 @@ body {
     background-color: transparent;
 }
 
-.navbar__s2 input:focus {   /* Pseudo Class: Focus */
+.navbar__s2 input:focus {
+    /* Pseudo Class: Focus */
     outline: none;
 }
 
@@ -51,7 +52,8 @@ body {
     align-items: center;
 }
 
-.mylearning {               /* My Learning Dropdown*/
+.mylearning {
+    /* My Learning Dropdown*/
     position: relative;
     cursor: pointer;
 }
@@ -65,7 +67,7 @@ body {
     background-color: white;
     border: solid black 1px;
     border-radius: 5px;
-    display: none;           
+    display: none;
 }
 
 .mylearning:hover .mylearning__dropdown {
@@ -78,7 +80,8 @@ body {
     padding: 5px;
 } */
 
-.navbar__s3__course:hover, .navbar__s3__learning:hover  {
+.navbar__s3__course:hover,
+.navbar__s3__learning:hover {
     border-bottom: solid black 1px;
 }
 
@@ -92,6 +95,10 @@ body {
 .navbar__s3 i:hover {
     background-color: #34295b;
     color: white;
+}
+
+.navbar__s4 {
+    display: none;
 }
 
 /* Categories */
@@ -130,10 +137,12 @@ body {
 .recommended {
     padding: 10px;
     margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .recommended-container {
-    /* margin-top: 20px; */
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -141,13 +150,16 @@ body {
 }
 
 .course-card {
-    width: 350px;
+    /* width: 350px; */
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
 }
 
 .course-card img {
-    margin-top: 15px;
+    margin-top: 5px;
     width: 100%;
-    height: 200px;
+    height: 50%;
 }
 
 .course-card del {
@@ -212,7 +224,7 @@ body {
     gap: 10px;
 }
 
-.footer__one p{
+.footer__one p {
     margin: 15px;
 }
 
@@ -234,7 +246,33 @@ body {
     justify-content: space-between;
 }
 
-.footer__two p:hover{
+.footer__two p:hover {
     color: blueviolet;
     border-bottom: solid #9b98bd 1px;
+}
+
+
+@media screen and (max-width:800px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .course-card {
+        flex-basis: 40%;
+    }
+
+    .categories {
+        display: none;
+    }
+
+    .navbar__s2,
+    .navbar__s3 {
+        display: none;
+    }
+
+    .navbar__s4 {
+        display: block;
+    }
 }
