@@ -78,7 +78,7 @@ body {
     padding: 5px;
 } */
 
-.navbar__s3 p:hover {
+.navbar__s3__course:hover, .navbar__s3__learning:hover  {
     border-bottom: solid black 1px;
 }
 
